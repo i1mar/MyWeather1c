@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f71d790b-72da-4a7f-9b5c-b46df73c3be6">
+  <producedTypes>
+    <objectType typeId="ed874efa-f258-407c-a3b8-ddd91f4e68a5" valueTypeId="2cadf1d9-9d82-469f-bc29-cce211d1ee56"/>
+    <refType typeId="a7ac9ce6-e978-4706-82d0-ba166e2a4db7" valueTypeId="cadc09b4-f204-48fc-b24d-3a75e8b4d3bf"/>
+    <selectionType typeId="c5d80cb3-55a3-4097-b5c5-add49d170a72" valueTypeId="4fd14b3e-4d59-4dad-9940-a1ac99db853f"/>
+    <listType typeId="d0f5c644-28d3-4511-91f4-11ebfafa202c" valueTypeId="9c644ed7-5636-44b3-914a-6291929fa34a"/>
+    <managerType typeId="b4c9b45e-559f-4402-b73b-99b6ebccde86" valueTypeId="6635a40c-2d79-496c-80e6-70a643843b8b"/>
+  </producedTypes>
+  <name>Города</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Города.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Города.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="febfad86-7666-437b-9804-ee7ece99dfd1">
+      <name>Москва</name>
+      <description>Москва</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

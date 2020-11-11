@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8690df2-f42a-4f68-ac01-3dcecb6ceb6c">
+  <producedTypes>
+    <objectType typeId="aae1ccdf-ff2c-4722-b4f2-71de58077f77" valueTypeId="ca9d3719-94ec-4f04-b356-e2159f202a22"/>
+    <managerType typeId="e83755d3-0608-480a-8d0c-76632175bffa" valueTypeId="48f64846-3f5e-440d-bae1-3ae6f5e9bf1c"/>
+  </producedTypes>
+  <name>Weather</name>
+  <synonym>
+    <key>ru</key>
+    <value>Weather</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Weather.Form.Форма</defaultForm>
+  <attributes uuid="72c4b55d-89e5-4489-bea0-c7e9c39ef549">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+  </attributes>
+  <attributes uuid="a64eaea5-a6bc-4f4b-aa7e-228a2798807e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="dfeaec41-ec75-4803-aafc-67e4fd871c79">
+    <name>ТекущаяТемпература</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая температура</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ff9823e4-d970-402f-88f9-2a31a17bd4e3">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <tabularSections uuid="079da00d-9f1f-4fe7-b5e7-2c1c76f404ae">
+    <producedTypes>
+      <objectType typeId="806bc976-26df-4793-973c-38a52285136d" valueTypeId="706f280c-d2bf-4c2d-8374-6faab36cbd83"/>
+      <rowType typeId="90738563-582d-4aa8-b960-5090a751cb66" valueTypeId="224b6445-8428-4f59-b9e2-9ab2ed8ea6db"/>
+    </producedTypes>
+    <name>ТаблицаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица данных</value>
+    </synonym>
+    <attributes uuid="6ac60c2f-e368-4f37-a86e-b376f89d01bc">
+      <name>КолонкаОписание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="c99d758b-fe45-4080-8fa4-f632b2fbf1d0">
+      <name>Колонка0</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка0</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="a058c140-460a-43f6-9149-e8f5a4eeeb5c">
+      <name>Колонка1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка1</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="8adc89d6-8f14-4d39-8625-766e1488cc5e">
+      <name>Колонка2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="4ab5c1b2-58ca-4088-b59f-31f6d766e4f0">
+      <name>Колонка3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка3</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="716c8858-aacd-44af-ae75-a5095f8c5eac">
+      <name>Колонка4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка4</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="6b4df5f4-5297-43d4-ba16-e989afef48a7">
+      <name>Колонка5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка5</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="f5628c7f-dd1a-4eed-9507-622b278be28d">
+      <name>Колонка6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка6</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="267380bc-7056-4af1-bc39-7dfee56d247f">
+      <name>Колонка7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка7</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fbc60693-38b1-47da-8a45-9590e3cfd37a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
