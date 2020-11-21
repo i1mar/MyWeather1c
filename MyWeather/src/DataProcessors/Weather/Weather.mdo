@@ -60,6 +60,32 @@
       </stringQualifiers>
     </type>
   </attributes>
+  <attributes uuid="4cfe692c-b49e-4223-b1aa-2e6a26555561">
+    <name>min</name>
+    <synonym>
+      <key>ru</key>
+      <value>Min</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="4a26eba2-9e80-4c6c-b4f2-9e8610718347">
+    <name>max</name>
+    <synonym>
+      <key>ru</key>
+      <value>Max</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
   <tabularSections uuid="079da00d-9f1f-4fe7-b5e7-2c1c76f404ae">
     <producedTypes>
       <objectType typeId="806bc976-26df-4793-973c-38a52285136d" valueTypeId="706f280c-d2bf-4c2d-8374-6faab36cbd83"/>
@@ -92,7 +118,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -105,7 +131,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -118,7 +144,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -131,7 +157,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -144,7 +170,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -157,7 +183,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -170,7 +196,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
@@ -183,7 +209,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
